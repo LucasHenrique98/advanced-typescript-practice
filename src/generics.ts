@@ -13,6 +13,6 @@ const whatever: Task = { name: 'lucas', type: TaskType.feature };
 type FeatureTask = Task<TaskType.feature>;
 
 const feature: FeatureTask = { name: 'feature', type: TaskType.feature };
-feature.type = TaskType.bug;
+// feature.type = TaskType.bug;
 
-const invalid: FeatureTask = { name: 'invalid', type: TaskType.bug };
+// const invalid: FeatureTask = { name: 'invalid', type: TaskType.bug };
